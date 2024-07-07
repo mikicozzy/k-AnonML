@@ -315,6 +315,7 @@ if __name__ == "__main__":
     parser.add_argument(
         'dataset',
         # ["adult", "cahousing", "cmc", "mgm"],
+        #! ["adult", "cahousing", "cmc", "mgm", "nc"],
         choices=list(Dataset),
         default="adult",
         nargs='?',
