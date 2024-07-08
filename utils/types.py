@@ -9,6 +9,8 @@ class Dataset(Enum):
     MGM = 'mgm'
     ADULT = 'adult'
     CAHOUSING = 'cahousing'
+    #! aggiungo il dataset NC-Voters
+    NC = 'nc'  
 
     def __str__(self):
         return self.value

@@ -72,6 +72,7 @@ def main(args):
     print('Original Data: ' + str(data.shape[0]) + ' entries, ' + str(data.shape[1]) + ' attributes')
 
     ATT_NAMES = list(data.columns)
+    ''' lista nomi delle colonne (attributi) del dataset'''
 
     if dataset == Dataset.CMC:
         QI_INDEX = [1, 2, 4]
@@ -100,10 +101,18 @@ def main(args):
         IS_CAT2 = [True, False, True, True, True, True, True, True]
         max_numeric = {"age": 50.5}
 
-    QI_NAMES = list(np.array(ATT_NAMES)[QI_INDEX])
+    #! aggiungo i parametri per l'analisi del nuovo dataset NC-Voters
+    elif dataset == Dataset.NC:
+        QI_INDEX = [3, 5, 6, 8, 10, 11]  #QID index --> per ciascuno creare gerarchie
+        '''street_name, zip_code, area_cd (phone area code), age, ethnic_code, race_code'''
+        target_var = 'party_cd'
+        IS_CAT2 = [True, True, True, False, True, True] # se QID è categoria (True) o numerical (False)
+        max_numeric = {"age": 50.5}  #TODO: da settare
+
+    QI_NAMES = list(np.array(ATT_NAMES)[QI_INDEX])  # lista nomi delle colonne QID categorie
     IS_CAT = [True] * len(QI_INDEX)
-    SA_INDEX = [index for index in range(len(ATT_NAMES)) if index not in QI_INDEX]
-    SA_var = [ATT_NAMES[i] for i in SA_INDEX]
+    SA_INDEX = [index for index in range(len(ATT_NAMES)) if index not in QI_INDEX]  # lista indici degli attributi non-QID
+    SA_var = [ATT_NAMES[i] for i in SA_INDEX]  # lista nomi degli attributi non-QID
 
     # one hot encoding for all categorical values
     one_hot_original = [col for i, col in enumerate(data[QI_NAMES].columns) if IS_CAT2[i]]
@@ -131,6 +140,11 @@ def main(args):
 
     elif dataset == Dataset.CMC:
         SA_var = ['ID', 'method']
+
+    #! aggiunto il caso dataset NC-Voters
+    elif dataset == Dataset.NC:
+        SA_var = ['ncid', 'party_cd']
+
 
     # Experiments on original Data
 
@@ -314,7 +328,7 @@ if __name__ == "__main__":
 
     parser.add_argument(
         'dataset',
-        # ["adult", "cahousing", "cmc", "mgm"],
+        #// ["adult", "cahousing", "cmc", "mgm"],
         #! ["adult", "cahousing", "cmc", "mgm", "nc"],
         choices=list(Dataset),
         default="adult",
