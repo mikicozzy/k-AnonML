@@ -133,3 +133,4 @@ venv*
 results/*
 !results/.gitkeep
 *.pickle
+.vscode/settings.json
