@@ -103,10 +103,10 @@ def main(args):
 
     #! aggiungo i parametri per l'analisi del nuovo dataset NC-Voters
     elif dataset == Dataset.NC:
-        QI_INDEX = [3, 5, 6, 8, 10, 11]  #QID index --> per ciascuno creare gerarchie
-        '''street_name, zip_code, area_cd (phone area code), age, ethnic_code, race_code'''
+        QI_INDEX = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  #QID index --> per ciascuno creare gerarchie
+        '''res_city_desc; county_desc; street_type_cd; zip_code; phone_area_code; sex_code; age; birth_place(Country); ethnic_code; race_code'''
         target_var = 'party_cd'
-        IS_CAT2 = [True, True, True, False, True, True] # se QID è categoria (True) o numerical (False)
+        IS_CAT2 = [True, True, True, False, False, True, False, True, True, True] # se QID è categoria (True) o numerical (False) --> considero age e zip numerici 28170 e 28172 sono "vicini"
         max_numeric = {"age": 50.5}  #TODO: da settare
 
     QI_NAMES = list(np.array(ATT_NAMES)[QI_INDEX])  # lista nomi delle colonne QID categorie
@@ -191,7 +191,7 @@ def main(args):
         writer = csv.writer(f_file)
         nodes_count = 1
         raw_data, header = read_raw(path, numeric_folder, dataset, QI_INDEX, IS_CAT)
-        ATT_TREES = read_tree(gen_path, numeric_folder, dataset, ATT_NAMES, QI_INDEX, IS_CAT)
+        ATT_TREES = read_tree(gen_path, numeric_folder, dataset, ATT_NAMES, QI_INDEX, IS_CAT)  # legge gli alberi delle gerarchie
         for s in s_range:
             s_folder = os.path.join(anon_folder, 's_' + str(s))
             os.mkdir(s_folder)
