@@ -99,7 +99,7 @@ def main(args):
         QI_INDEX = [1, 2, 3, 4, 5, 6, 7, 8]
         target_var = 'salary-class'
         IS_CAT2 = [True, False, True, True, True, True, True, True]
-        max_numeric = {"age": 50.5}
+        max_numeric = {"age": 50.5, "zip_code": 28172, "phone_area_code": 828}
 
     #! aggiungo i parametri per l'analisi del nuovo dataset NC-Voters
     elif dataset == Dataset.NC:
@@ -143,7 +143,7 @@ def main(args):
 
     #! aggiunto il caso dataset NC-Voters
     elif dataset == Dataset.NC:
-        SA_var = ['ncid', 'party_cd']
+        SA_var = ['ID', 'party_cd']
 
 
     # Experiments on original Data

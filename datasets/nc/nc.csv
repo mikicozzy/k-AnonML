@@ -1,4 +1,4 @@
-ncid;res_city_desc;county_desc;street_type_cd;zip_code;phone_area_code;sex_code;age;birth_place(Country);ethnic_code;race_code;party_cd
+ID;res_city_desc;county_desc;street_type_cd;zip_code;phone_area_code;sex_code;age;birth_place(Country);ethnic_code;race_code;party_cd
 aa173006;burlington;alamance;st;27217;336;f;31;ri;un;w;dem
 by580879;burlington;alamance;st;27215;631;f;30;ny;nl;w;dem
 ax51253;burlington;alamance;dr;27215;980;f;37;fl;nl;w;una
