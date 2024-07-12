@@ -108,6 +108,7 @@ def main(args):
         target_var = 'party_cd'
         IS_CAT2 = [True, True, True, False, False, True, False, True, True, True] # se QID è categoria (True) o numerical (False) --> considero age e zip numerici 28170 e 28172 sono "vicini"
         max_numeric = {"age": 50.5, "zip_code": 28172, "phone_area_code": 828}  #! sono i valori (grosso modo centrali) che vengono sostituiti agli asterischi in caso di soppressione dell'attributo
+        xgb_eval_metric = 'merror'
 
     QI_NAMES = list(np.array(ATT_NAMES)[QI_INDEX])  # lista nomi delle colonne QID categorie
     IS_CAT = [True] * len(QI_INDEX)
