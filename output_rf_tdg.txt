@@ -1,0 +1,204 @@
+Original Data: 5270 entries, 12 attributes
+RandomForestClassifier(max_depth=10, min_samples_split=5, n_estimators=300,
+                       oob_score=True, random_state=10)
+Zero-Rule baseline: 34.471853%
+K=5
+NCP 42.70%
+Running time 7.53seconds
+K: 5 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.344534796564415
+K=10
+NCP 54.21%
+Running time 6.72seconds
+K: 10 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.320809705368305
+K=15
+NCP 63.29%
+Running time 6.15seconds
+K: 15 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3314550131979474
+K=20
+NCP 67.40%
+Running time 6.03seconds
+K: 20 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3147973335220416
+K=25
+NCP 70.47%
+Running time 5.80seconds
+K: 25 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.31699129298140477
+K=30
+NCP 73.50%
+Running time 5.64seconds
+K: 30 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3198930291512682
+K=35
+NCP 78.06%
+Running time 5.12seconds
+K: 35 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.31721766513497385
+K=40
+NCP 79.26%
+Running time 5.37seconds
+K: 40 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.30295449660666374
+K=45
+NCP 80.09%
+Running time 5.05seconds
+K: 45 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2984307392886897
+K=50
+NCP 81.55%
+Running time 5.14seconds
+K: 50 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3126703626696233
+K=55
+NCP 83.08%
+Running time 4.97seconds
+K: 55 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.326806527224135
+K=60
+NCP 85.15%
+Running time 4.48seconds
+K: 60 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.30034944936331026
+K=65
+NCP 84.62%
+Running time 4.70seconds
+K: 65 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.33256392714158794
+K=70
+NCP 87.98%
+Running time 4.67seconds
+K: 70 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.30377929596295944
+K=75
+NCP 88.55%
+Running time 4.61seconds
+K: 75 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.31540265712640886
+K=80
+NCP 86.05%
+Running time 4.48seconds
+K: 80 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.30119911227003193
+K=85
+NCP 88.94%
+Running time 4.22seconds
+K: 85 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.29792132022816953
+K=90
+NCP 89.42%
+Running time 4.35seconds
+K: 90 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3003275469195016
+K=95
+NCP 92.41%
+Running time 4.33seconds
+K: 95 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.259160901606303
+K=100
+NCP 89.97%
+Running time 4.40seconds
+K: 100 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2665308686315628

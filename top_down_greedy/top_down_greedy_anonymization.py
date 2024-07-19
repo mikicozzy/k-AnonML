@@ -316,6 +316,7 @@ def Top_Down_Greedy_Anonymization(att_trees, data, k, QI_num, SA_num):
         gen_result = sub_partition.middle
         rncp = NCP(gen_result)
 
+        #! Calcolo ncp
         for i in range(len(sub_partition)):
             temp_for_SA = []
             for s in range(len(sub_partition.member[i]) - len(SA_INDEX), len(sub_partition.member[i])):

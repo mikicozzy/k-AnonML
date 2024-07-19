@@ -1,0 +1,223 @@
+Original Data: 5270 entries, 12 attributes
+KNeighborsClassifier(n_neighbors=10)
+Zero-Rule baseline: 34.471853%
+K=5
+Mondrian
+NCP 49.52%
+Running time 3.31seconds
+K: 5 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.29923968910048415
+K=10
+Mondrian
+NCP 60.14%
+Running time 2.71seconds
+K: 10 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2718567963271531
+K=15
+Mondrian
+NCP 65.81%
+Running time 2.49seconds
+K: 15 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.27835596963245884
+K=20
+Mondrian
+NCP 72.36%
+Running time 2.15seconds
+K: 20 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.27389719315246214
+K=25
+Mondrian
+NCP 74.65%
+Running time 1.97seconds
+K: 25 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.25165040975202757
+K=30
+Mondrian
+NCP 80.53%
+Running time 1.83seconds
+K: 30 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.26688105191124634
+K=35
+Mondrian
+NCP 80.73%
+Running time 1.85seconds
+K: 35 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2666530018147415
+K=40
+Mondrian
+NCP 81.76%
+Running time 1.76seconds
+K: 40 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.26145540724995997
+K=45
+Mondrian
+NCP 81.76%
+Running time 1.75seconds
+K: 45 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.26145540724995997
+K=50
+Mondrian
+NCP 82.13%
+Running time 1.69seconds
+K: 50 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2640094034382735
+K=55
+Mondrian
+NCP 82.44%
+Running time 1.64seconds
+K: 55 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.254217767815491
+K=60
+Mondrian
+NCP 82.70%
+Running time 1.62seconds
+K: 60 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2564722479736619
+K=65
+Mondrian
+NCP 84.05%
+Running time 1.52seconds
+K: 65 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.22228560027090338
+K=70
+Mondrian
+NCP 84.31%
+Running time 1.56seconds
+K: 70 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.22811268441716423
+K=75
+Mondrian
+NCP 84.69%
+Running time 1.47seconds
+K: 75 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2587088044593325
+K=80
+Mondrian
+NCP 84.69%
+Running time 1.49seconds
+K: 80 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2587088044593325
+K=85
+Mondrian
+NCP 84.69%
+Running time 1.49seconds
+K: 85 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2587088044593325
+K=90
+Mondrian
+NCP 84.69%
+Running time 1.56seconds
+K: 90 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2587088044593325
+K=95
+Mondrian
+NCP 84.69%
+Running time 1.49seconds
+K: 95 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2587088044593325
+K=100
+Mondrian
+NCP 85.08%
+Running time 1.47seconds
+K: 100 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.25093017997470557

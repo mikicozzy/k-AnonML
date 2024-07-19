@@ -1,0 +1,224 @@
+Original Data: 5270 entries, 12 attributes
+RandomForestClassifier(max_depth=10, min_samples_split=5, n_estimators=300,
+                       oob_score=True, random_state=10)
+Zero-Rule baseline: 34.471853%
+K=5
+Begin to KNN Cluster based on NCP
+NCP 40.07%
+Running time 18.41seconds
+K: 5 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3393153692933417
+K=10
+Begin to KNN Cluster based on NCP
+NCP 57.03%
+Running time 9.78seconds
+K: 10 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.329829349998618
+K=15
+Begin to KNN Cluster based on NCP
+NCP 66.29%
+Running time 6.84seconds
+K: 15 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3293386761664046
+K=20
+Begin to KNN Cluster based on NCP
+NCP 73.86%
+Running time 5.35seconds
+K: 20 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3012711662936356
+K=25
+Begin to KNN Cluster based on NCP
+NCP 78.48%
+Running time 4.32seconds
+K: 25 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.31693663368037733
+K=30
+Begin to KNN Cluster based on NCP
+NCP 81.25%
+Running time 3.58seconds
+K: 30 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.30715316590830777
+K=35
+Begin to KNN Cluster based on NCP
+NCP 83.40%
+Running time 3.16seconds
+K: 35 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3001012075922723
+K=40
+Begin to KNN Cluster based on NCP
+NCP 86.79%
+Running time 2.81seconds
+K: 40 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3014860904414639
+K=45
+Begin to KNN Cluster based on NCP
+NCP 88.00%
+Running time 2.50seconds
+K: 45 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.3059459146103829
+K=50
+Begin to KNN Cluster based on NCP
+NCP 90.18%
+Running time 2.28seconds
+K: 50 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.26448581797594095
+K=55
+Begin to KNN Cluster based on NCP
+NCP 91.19%
+Running time 2.24seconds
+K: 55 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2719662768077192
+K=60
+Begin to KNN Cluster based on NCP
+NCP 93.06%
+Running time 2.02seconds
+K: 60 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.273584742523276
+K=65
+Begin to KNN Cluster based on NCP
+NCP 92.48%
+Running time 1.95seconds
+K: 65 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2521355147336969
+K=70
+Begin to KNN Cluster based on NCP
+NCP 94.88%
+Running time 1.83seconds
+K: 70 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2562348861563094
+K=75
+Begin to KNN Cluster based on NCP
+NCP 94.03%
+Running time 1.69seconds
+K: 75 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.23761881383636368
+K=80
+Begin to KNN Cluster based on NCP
+NCP 96.00%
+Running time 1.66seconds
+K: 80 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.222273028372795
+K=85
+Begin to KNN Cluster based on NCP
+NCP 93.79%
+Running time 1.60seconds
+K: 85 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.2603078320191769
+K=90
+Begin to KNN Cluster based on NCP
+NCP 95.70%
+Running time 1.51seconds
+K: 90 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.27234976390281984
+K=95
+Begin to KNN Cluster based on NCP
+NCP 96.72%
+Running time 1.45seconds
+K: 95 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.24106288937900586
+K=100
+Begin to KNN Cluster based on NCP
+NCP 97.18%
+Running time 1.34seconds
+K: 100 S: 0Node: 0 | Anonymized Data: 5270 entries, 12 attributes
+age
+zip_code
+phone_area_code
+{0, 1, 2, 3}
+{0, 2, 3}
+0.22684195428329862
